@@ -13,3 +13,7 @@ Una vez ejecutado el anterior, por ejemplo use ggplot:
 ```r
 ggplot(data=casos,aes(x=w,fill=label,weight=prop)) + stat_fill_labels()
 ```
+
+La libreria no es de mi auditoria, pertenece a larmarange, para mas información sobre su documentación visite
+
+[documentación](http://larmarange.github.io/JLutils/reference/stat_fill_labels.html)
